@@ -21,7 +21,7 @@ To visualize this, think of Binary and imagine all 10 fingers are assigned a val
 
 Now imagine my hands are wide open and I'm showing my palms and all 10 fingers are straight. 
 
-![Open Hands Image]("https://www.usnews.com/dims4/USNEWS/97205ea/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F8a%2Fb7%2F39b713ec4a96b24a2ef9d2c98e4a%2F150909-hands-stock.jpg")
+![Open Hands Image]("B:\New Downloads\Hands journal.jpg")
 
 This would be assigned a value of 0,000,0   00,000
 *Ignore the commas they are js there so I can properly count 😭
