@@ -81,3 +81,5 @@ I need to figure out how to design the gloves, how to design the drive train, wh
 I need the drive train to strafe in any direction ideally. Furthermore I want to make a cool looking design being cute and friendly. I need to make a pretty big display to show different stuff like time, battery, weather, date, and captions. I also need to make different faces that will belong to the robot. The robot should also have text to speech as well.
 
 A simple drive train is easy to make. However weather might be difficult because it will require some type of connection. I can probably do date and time by setting the clock once then it keeps going forever and ever with only needing correction during daylight savings or other events like that. Battery should also be simple since it’s based on the battery capacity. 
+
+**Total time spent: 1.5 hours**
