@@ -5,7 +5,7 @@ description: "A short description of your project"
 created_at: "2026-10-1"
 ---
 
-# March 20: Wrote down the overall idea and first thoughts about the project
+# October 1: Wrote down the overall idea and first thoughts about the project
 
 A drive train that is controlled with hand gestures.
 
@@ -83,3 +83,46 @@ I need the drive train to strafe in any direction ideally. Furthermore I want to
 A simple drive train is easy to make. However weather might be difficult because it will require some type of connection. I can probably do date and time by setting the clock once then it keeps going forever and ever with only needing correction during daylight savings or other events like that. Battery should also be simple since it’s based on the battery capacity. 
 
 **Total time spent: 1.5 hours**
+
+
+
+# October 2
+
+I'm thinking about making a Wall E referenced robot with deployable eyes that have built in cameras which broadcast to a screen like my phone or monitor what the cameras are seeing and I can control the robot by using my sensor gloves. The robot will preferably have a display in the front that displays additional info but im not sure what yet. 
+
+The camera preferably needs a broad view so I can look around my surroundings and drive accurately. A small field of view will be difficult to drive. The ESP 32 S3 Sense has two camera sensors being the OV2640 or OV3660 sensors whom have an average horizontal FOV of 54°. My phone, the iphone 16e, has a horizontal FOV of 69°. 
+
+I’m figuring out it’s quite difficult to figure out parts and make decisions on my own without the assistance of tutorials or peer advice. However, here is what I have determined.
+
+My idea is a **Wall E inspired robot** that is controlled **remotely** with **hand gestures**. These gestures are expressed by using a glove that is fitted with sensors that detects whether or not **a finger is bent or straight**. Each finger will have its own sensor meaning that the bent state of one finger does not determine the nature of another finger. This allows for **numerous** combinations of my fingers allowing me to express lots of different commands to the robot simply by moving my hand around. This gives 2^10 possible combinations since each finger can be bent or straight and I have 10 fingers. However not every combination can be carried out since I don’t have **full flexibility and control over my digits**. An example of this is that it’s difficult for me to hold my pinky down whilst all the other fingers remain straight. This issue will require lots of testing for me to determine which hand signs are possible.
+A **gyroscope** will be added to each glove to determine if my hand is parallel or perpendicular with the ground.
+An **accelerometer** will be added to each glove to determine how fast my hand is moving. This can be made to give a hand sign two possible commands based on how fast it’s moving. For simplicity, I will most likely resort to two states of speed -– fast or slow — with some arbitrary values I determine myself.
+
+Note, the robot will definitely not use all possible combinations that I can make simply because it cannot execute that many unique actions. The reason for the sensors is so I can differentiate the hand signs between each other. In reality, the robot is being controlled by orientation, speed, and finger state of my hand while to someone that doesn’t understand the code would assume that I programmed each hand sign to mean a specific thing. I essentially want to do **naruto** hand signs but this way I made it easier on myself to program and make unique hand gestures.
+
+## Possible Additional Features
+A display
+- showing biometric data about the robot
+- Time and Date
+- Captions/text given by me from my keyboard or wireless connection
+
+Speaker
+- Output prerecorded audios that I can trigger with a hand sign
+- I can type out messages and use a text to speech software to output the audio
+
+Camera
+- I want to be able to see what the robot sees and drive using the camera. It will send a live feed to some type of monitor, phone, or other display. The robot and display will connect over Wifi. Furthermore my plan is to put the cameras in the eyes of the Wall E design. However an issue with this is that 2 cameras showing the same perspective overlap and become useful. I can point one camera to the front and one camera to the back of the robot but then the vision will become lopsided.
+
+LEDs
+- An idea to fix the camera perspective issue is that I actually conceal the camera centered in the body of the robot. I will replace the cameras in the eyes with LED. This adds extra functionality and personality to the robot while still keeping full perspectives and not negatively affecting the vision. 
+Rotatable hands and claws that can open or close but are non functional
+
+An Image depicting my overall thought process of how everything will be connected and work
+<img width="1504" height="980" alt="image" src="https://github.com/user-attachments/assets/465e459e-5c87-4527-bd5f-bdecc74a3e5d" />
+
+**Total time spent: 3 hours**
+
+
+
+
+
